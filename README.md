@@ -18,3 +18,6 @@ This repository contains source codes, to all of the attempts made by me in the 
 LB Score = max(0, (100 - Mean Absolute Eror))
 
 50% private testing data.
+
+Other tried approaches:
+1. LightGBM: default parameters had a large error in during validation and hence didn't try tuning the parameters because I thought this big decrease in error is simply not possible without overfitting the algorithm.
